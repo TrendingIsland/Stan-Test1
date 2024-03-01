@@ -44,12 +44,9 @@ class GP_Generate:
 
 # Retrieve the API key from environment variables
 # api_key = "API KEY"
-import os
-# # Create an instance of the Generate class
-generator = GP_Generate(os.getenv("CG_KEY"))
-
-# # Generate text based on the provided message
-
-result = generator.ask()
-print(result)
+# # # Create an instance of the Generate class
+# generator = GP_Generate(api_key)
+# # # Generate text based on the provided message
+# result = generator.ask()
+# print(result)
 # process this result variable for your use cases
