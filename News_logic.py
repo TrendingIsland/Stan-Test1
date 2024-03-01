@@ -48,4 +48,6 @@ class News:
 # news = News(API_KEY=API_KEY)
 
 # # Retrieve and print articles based on the specified query, country, and language
+# get articles returns the actual results  news.get_articles(query = "ronaldo", country = "us", lan = "en")
+# process this for later use
 # print(news.get_articles(query = "ronaldo", country = "us", lan = "en"))
