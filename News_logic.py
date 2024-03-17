@@ -1,7 +1,12 @@
 from newsdataapi import NewsDataApiClient
+import sys
+sys.path.append("C:\\Users\\diyaa\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages")
+
 
 class News:
+    API_KEY = 'API KEY'
     """
+
     A class to interact with a news API and retrieve articles based on specific criteria.
 
     Attributes:
@@ -10,6 +15,7 @@ class News:
     """
 
     def __init__(self, API_KEY):
+        
         """
         Initializes the News class with the provided API key.
 
@@ -45,7 +51,7 @@ class News:
         return result_string
 
 # # Instantiate the News class with the API key
-# news = News(API_KEY=API_KEY)
-
+news = News(API_KEY='API KEY')
+# #q=input("Enter the query : ")
 # # Retrieve and print articles based on the specified query, country, and language
-# print(news.get_articles(query = "ronaldo", country = "us", lan = "en"))
+print(news.get_articles(query = "top 10 most powerful militaries in the world", country = "us", lan = "en"))
