@@ -86,4 +86,25 @@ This repository also contains a class for generating text using the OpenAI API.
 
 - `str`: The generated text containing answers to user queries.
 
+# Trendy Reporter Bot
+
+### Dependencies
+- `python-telegram-bot`
+- `typing`
+
+### Usage
+1. **Setting Up Token and Bot Username**:
+   - Replace `TOKEN` and `BOT_USERNAME` with your bot's credentials.
+
+2. **Running the Bot**:
+   - Execute the script to start the bot.
+
+3. **Bot Commands**:
+   - `/start`: Initiates a conversation.
+   - `/help`: Provides assistance.
+   - `/analyze <query>`: Analyzes the query.
+
+### Functionality
+- **Commands**:
+  - `/start`, `/help`, `/analyze`
 These README files provide users with instructions on how to use the respective classes and their methods. Adjust `your_api_key` with your actual API keys when using these classes.
