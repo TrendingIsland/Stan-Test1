@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Define bot token and username
-TOKEN: Final = "7061955214:AAGsK0_6t5-tG7WL4EUYvYdb9DMJIfiQIDI"
+TOKEN: Final = "YOUR_TOKEN"
 BOT_USERNAME: Final = "@trendy_reporter_bot"
 
 class TrendyBot:
