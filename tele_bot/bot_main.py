@@ -98,7 +98,7 @@ Let's explore the trends together! 📈
         # Register error handler
         app.add_error_handler(self.error() )
 
-        # Start polling for updates // checks every 1 sec 
+        # Start polling for updates // checks every 1 secs 
         app.run_polling(poll_interval=1)
 
 if __name__ == "__main__":
